@@ -1,0 +1,39 @@
+.control-detail-section{
+    background-color: white;
+    border-radius: 5px;
+    height: fit-content;
+    max-width: 39%;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(189,183,189,1);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(189,183,189,1);
+    box-shadow: 0px 1px 2px 0px rgba(189,183,189,1);
+    /* Added this so right section can scroll along with content */
+    position: fixed;
+    right: 20px;
+    top: 140px;
+}
+
+.control-detail-section h1{
+    color: #45546e;
+    font-size: 18px;
+    text-indent: 15px;
+    border-bottom: 1px solid #e9f2fa;
+}
+
+.control-detail-section h2{
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid #e9f2fa;
+}
+
+.control-detail-section h2 span{
+    color: #627699;
+    margin-left:15px;
+}
+
+.control-detail-section p{
+   background-color: #f9fcff;
+   color: #627699; 
+   font-size: 16px;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+}

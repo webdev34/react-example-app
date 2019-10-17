@@ -1,0 +1,696 @@
+[
+  {
+    "id": 0,
+    "name": "ID.AM-1",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Physical devices and systems within the organization are inventoried"
+  },
+  {
+    "id": 1,
+    "name": "ID.AM-2",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Software platforms and applications within the organization are inventoried"
+  },
+  {
+    "id": 2,
+    "name": "ID.AM-3",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Organizational communication and data flows are mapped"
+  },
+  {
+    "id": 3,
+    "name": "ID.AM-4",
+    "text": "External information systems are catalogued"
+  },
+  {
+    "id": 4,
+    "name": "ID.AM-5",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Resources (e.g., hardware, devices, data, and software) are prioritized based on their classification, criticality, and business value"
+  },
+  {
+    "id": 5,
+    "name": "ID.AM-6",
+    "text": "Cybersecurity roles and responsibilities for the entire workforce and third-party stakeholders (e.g., suppliers, customers, partners) are established"
+  },
+  {
+    "id": 6,
+    "name": "ID.BE-1",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "The organization’s role in the supply chain is identified and communicated"
+  },
+  {
+    "id": 7,
+    "name": "ID.BE-2",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "The organization’s place in critical infrastructure and its industry sector is identified and communicated"
+  },
+  {
+    "id": 8,
+    "name": "ID.BE-3",
+    "text": "Priorities for organizational mission, objectives, and activities are established and communicated"
+  },
+  {
+    "id": 9,
+    "name": "ID.BE-4",
+    "text": "Dependencies and critical functions for delivery of critical services are established"
+  },
+  {
+    "id": 10,
+    "name": "ID.BE-5",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Resilience requirements to support delivery of critical services are established"
+  },
+  {
+    "id": 11,
+    "name": "ID.GV-1",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Organizational information security policy is established"
+  },
+  {
+    "id": 12,
+    "name": "ID.GV-2",
+    "text": "Information security roles & responsibilities are coordinated and aligned with internal roles and external partners"
+  },
+  {
+    "id": 13,
+    "name": "ID.GV-3",
+    "text": "Legal and regulatory requirements regarding cybersecurity, including privacy and civil liberties obligations, are understood and managed"
+  },
+  {
+    "id": 14,
+    "name": "ID.GV-4",
+    "text": "Governance and risk management processes address cybersecurity risks"
+  },
+  {
+    "id": 15,
+    "name": "ID.RA-1",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Asset vulnerabilities are identified and documented"
+  },
+  {
+    "id": 16,
+    "name": "ID.RA-2",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Threat and vulnerability information is received from information sharing forums and sources"
+  },
+  {
+    "id": 17,
+    "name": "ID.RA-3",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Threats, both internal and external, are identified and documented"
+  },
+  {
+    "id": 18,
+    "name": "ID.RA-4",
+    "text": "Potential business impacts and likelihoods are identified"
+  },
+  {
+    "id": 19,
+    "name": "ID.RA-5",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Threats, vulnerabilities, likelihoods, and impacts are used to determine risk"
+  },
+  {
+    "id": 20,
+    "name": "ID.RA-6",
+    "text": "Risk responses are identified and prioritized"
+  },
+  {
+    "id": 21,
+    "name": "ID.RM-1",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Risk management processes are established, managed, and agreed to by organizational stakeholders"
+  },
+  {
+    "id": 22,
+    "name": "ID.RM-2",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Organizational risk tolerance is determined and clearly expressed"
+  },
+  {
+    "id": 23,
+    "name": "ID.RM-3",
+    "text": "The organization’s determination of risk tolerance is informed by its role in critical infrastructure and sector specific risk analysis"
+  },
+  {
+    "id": 24,
+    "name": "PR.AC-1",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Identities and credentials are managed for authorized devices and users"
+  },
+  {
+    "id": 25,
+    "name": "PR.AC-2",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Physical access to assets is managed and protected"
+  },
+  {
+    "id": 26,
+    "name": "PR.AC-3",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Remote access is managed"
+  },
+  {
+    "id": 27,
+    "name": "PR.AC-4",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Access permissions are managed, incorporating the principles of least privilege and separation of duties"
+  },
+  {
+    "id": 28,
+    "name": "PR.AC-5",
+    "text": "Network integrity is protected, incorporating network segregation where appropriate"
+  },
+  {
+    "id": 29,
+    "name": "PR.AT-1",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "All users are informed and trained"
+  },
+  {
+    "id": 30,
+    "name": "PR.AT-2",
+    "text": "Privileged users understand roles & responsibilities"
+  },
+  {
+    "id": 31,
+    "name": "PR.AT-3",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Third-party stakeholders (e.g., suppliers, customers, partners) understand roles & responsibilities"
+  },
+  {
+    "id": 32,
+    "name": "PR.AT-4",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Senior executives understand roles & responsibilities"
+  },
+  {
+    "id": 33,
+    "name": "PR.AT-5",
+    "text": "Physical and information security personnel understand roles & responsibilities"
+  },
+  {
+    "id": 34,
+    "name": "PR.DS-1",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Data-at-rest is protected"
+  },
+  {
+    "id": 35,
+    "name": "PR.DS-2",
+    "text": "Data-in-transit is protected"
+  },
+  {
+    "id": 36,
+    "name": "PR.DS-3",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Assets are formally managed throughout removal, transfers, and disposition"
+  },
+  {
+    "id": 37,
+    "name": "PR.DS-4",
+    "text": "Adequate capacity to ensure availability is maintained"
+  },
+  {
+    "id": 38,
+    "name": "PR.DS-5",
+    "text": "Protections against data leaks are implemented"
+  },
+  {
+    "id": 39,
+    "name": "PR.DS-6",
+    "text": "Integrity checking mechanisms are used to verify software, firmware, and information integrity"
+  },
+  {
+    "id": 40,
+    "name": "PR.DS-7",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "The development and testing environment(s) are separate from the production environment"
+  },
+  {
+    "id": 41,
+    "name": "PR.IP-1",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "A baseline configuration of information technology/industrial control systems is created and maintained"
+  },
+  {
+    "id": 42,
+    "name": "PR.IP-2",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "A System Development Life Cycle to manage systems is implemented"
+  },
+  {
+    "id": 43,
+    "name": "PR.IP-3",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Configuration change control processes are in place"
+  },
+  {
+    "id": 44,
+    "name": "PR.IP-4",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Backups of information are conducted, maintained, and tested periodically"
+  },
+  {
+    "id": 45,
+    "name": "PR.IP-5",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Policy and regulations regarding the physical operating environment for organizational assets are met"
+  },
+  {
+    "id": 46,
+    "name": "PR.IP-6",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Data is destroyed according to policy"
+  },
+  {
+    "id": 47,
+    "name": "PR.IP-7",
+    "text": "Protection processes are continuously improved"
+  },
+  {
+    "id": 48,
+    "name": "PR.IP-8",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Effectiveness of protection technologies is shared with appropriate parties"
+  },
+  {
+    "id": 49,
+    "name": "PR.IP-9",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Response plans (Incident Response and Business Continuity) and recovery plans (Incident Recovery and Disaster Recovery) are in place and managed"
+  },
+  {
+    "id": 50,
+    "name": "PR.IP-10",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Response and recovery plans are tested"
+  },
+  {
+    "id": 51,
+    "name": "PR.IP-11",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Cybersecurity is included in human resources practices (e.g., deprovisioning, personnel screening)"
+  },
+  {
+    "id": 52,
+    "name": "PR.IP-12",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Avulnerability management plan is developed and implemented"
+  },
+  {
+    "id": 53,
+    "name": "PR.MA-1",
+    "text": "Maintenance and repair of organizational assets is performed and logged in a timely manner, with approved and controlled tools"
+  },
+  {
+    "id": 54,
+    "name": "PR.MA-2",
+    "text": "Remote maintenance of organizational assets is approved, logged, and performed in a manner that prevents unauthorized access"
+  },
+  {
+    "id": 55,
+    "name": "PR.PT-1",
+    "text": "Audit/log records are determined, documented, implemented, and reviewed in accordance with policy"
+  },
+  {
+    "id": 56,
+    "name": "PR.PT-2",
+    "text": "Removable media is protected and its use restricted according to policy"
+  },
+  {
+    "id": 57,
+    "name": "PR.PT-3",
+    "text": "Access to systems and assets is controlled, incorporating the principle of least functionality"
+  },
+  {
+    "id": 58,
+    "name": "PR.PT-4",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Communications and control networks are protected"
+  },
+  {
+    "id": 59,
+    "name": "DE.AE-1",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "A baseline of network operations and expected data flows for users and systems is established and managed"
+  },
+  {
+    "id": 60,
+    "name": "DE.AE-2",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Detected events are analyzed to understand attack targets and methods"
+  },
+  {
+    "id": 61,
+    "name": "DE.AE-3",
+    "text": "Event data are aggregated and correlated from multiple sources and sensors"
+  },
+  {
+    "id": 62,
+    "name": "DE.AE-4",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Impact of events is determined"
+  },
+  {
+    "id": 63,
+    "name": "DE.AE-5",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Incident alert thresholds are established"
+  },
+  {
+    "id": 64,
+    "name": "DE.CM-1",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "The network ismonitored to detect potential cybersecurity events"
+  },
+  {
+    "id": 65,
+    "name": "DE.CM-2",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "The physical environment is monitored to detect potential cybersecurity events"
+  },
+  {
+    "id": 66,
+    "name": "DE.CM-3",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Personnel activity is monitored to detect potential cybersecurity events"
+  },
+  {
+    "id": 67,
+    "name": "DE.CM-4",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Malicious code is detected"
+  },
+  {
+    "id": 68,
+    "name": "DE.CM-5",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Unauthorized mobile code is detected"
+  },
+  {
+    "id": 69,
+    "name": "DE.CM-6",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "External service provider activity is monitored to detect potential cybersecurity events"
+  },
+  {
+    "id": 70,
+    "name": "DE.CM-7",
+    "text": "Monitoring for unauthorized personnel, connections, devices, and software is performed"
+  },
+  {
+    "id": 71,
+    "name": "DE.CM-8",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Vulnerability scans are performed"
+  },
+  {
+    "id": 72,
+    "name": "DE.DP-1",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Roles and responsibilities for detection are well defined to ensure accountability"
+  },
+  {
+    "id": 73,
+    "name": "DE.DP-2",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Detection activities comply with all applicable requirements"
+  },
+  {
+    "id": 74,
+    "name": "DE.DP-3",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Detection processes are tested"
+  },
+  {
+    "id": 75,
+    "name": "DE.DP-4",
+    "text": "Event detection information is communicated to appropriate parties"
+  },
+  {
+    "id": 76,
+    "name": "DE.DP-5",
+    "text": "Detection processes are continuously improved"
+  },
+  {
+    "id": 77,
+    "name": "RS.RP-1",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Response plan is executed during or after an event"
+  },
+  {
+    "id": 78,
+    "name": "RS.CO-1",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Personnel know their roles and order of operations when a response is needed"
+  },
+  {
+    "id": 79,
+    "name": "RS.CO-2",
+    "text": "Events are reported consistent with established criteria"
+  },
+  {
+    "id": 80,
+    "name": "RS.CO-3",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Information is shared consistent with response plans"
+  },
+  {
+    "id": 81,
+    "name": "RS.CO-4",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Coordination with stakeholders occurs consistent with response plans"
+  },
+  {
+    "id": 82,
+    "name": "RS.CO-5",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Voluntary information sharing occurs with external stakeholders to achieve broader cybersecurity situational awareness"
+  },
+  {
+    "id": 83,
+    "name": "RS.AN-1",
+    "text": "Notifications from detection systems are investigated"
+  },
+  {
+    "id": 84,
+    "name": "RS.AN-2",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "The impact of the incident is understood"
+  },
+  {
+    "id": 85,
+    "name": "RS.AN-3",
+    "text": "Forensics are performed"
+  },
+  {
+    "id": 86,
+    "name": "RS.AN-4",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Incidents are categorized consistent with response plans"
+  },
+  {
+    "id": 87,
+    "name": "RS.MI-1",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Incidents are contained"
+  },
+  {
+    "id": 88,
+    "name": "RS.MI-2",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Incidents are mitigated"
+  },
+  {
+    "id": 89,
+    "name": "RS.MI-3",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Newly identified vulnerabilities are mitigated or documented as accepted risks"
+  },
+  {
+    "id": 90,
+    "name": "RS.IM-1",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Responseplans incorporate lessons learned"
+  },
+  {
+    "id": 91,
+    "name": "RS.IM-2",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Response strategies are updated"
+  },
+  {
+    "id": 92,
+    "name": "RC.RP-1",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Recovery plan is executed during or after an event"
+  },
+  {
+    "id": 93,
+    "name": "RC.IM-1",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Recovery plans incorporate lessons learned"
+  },
+  {
+    "id": 94,
+    "name": "RC.IM-2",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Recovery strategies are updated"
+  },
+  {
+    "id": 95,
+    "name": "RC.CO-1",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Public relations are managed"
+  },
+  {
+    "id": 96,
+    "name": "RC.CO-2",
+    "state": {
+      "isImplemented": true
+    },
+    "text": "Reputation after an event is repaired"
+  },
+  {
+    "id": 97,
+    "name": "RC.CO-3",
+    "state": {
+      "isImplemented": false
+    },
+    "text": "Recovery activities are communicated to internal stakeholders and executive and management teams"
+  }
+]

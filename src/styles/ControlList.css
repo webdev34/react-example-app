@@ -1,0 +1,11 @@
+.control-list-section{
+    webkit-box-shadow: 1px 0px 1px 0px rgba(230,227,230,.8);
+    -moz-box-shadow: 1px 0px 1px 0px rgba(230,227,230,.8);
+    box-shadow: 1px 0px 1px 0px rgba(230,227,230,.8);
+    background-color: white;
+    overflow: auto;
+}
+
+.control-list-section header{
+    background-color: #f6f9fc;
+}

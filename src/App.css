@@ -1,0 +1,45 @@
+*{
+    font-family: arial;
+}
+
+.direction-section h3{
+    color: #273143;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.direction-section p{
+    color: #a0b9d7;
+    font-size: 14px;
+}
+
+.label-text{
+    color: #627699;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.fa.fa-question{
+    color: white;
+    background: #ffb21d;
+    padding: 1px 3px;
+    border-radius: 2px;
+    font-size: 10px;
+}
+
+.Unknown{
+    color: #ffb21d;
+}
+
+.Implemented{
+    color: #2ecc71;
+}
+
+.Not.Implemented{
+    color: #ef0404;
+}
+
+.main-container{
+    background-color: #f6f9ff;
+}

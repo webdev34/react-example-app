@@ -1,0 +1,37 @@
+.btn-default{
+    border-color: #c9d7ed;
+}
+
+.btn-default.active-filter-btn{
+    background-color: #f6f9ff;
+}
+
+.btn-default:hover{
+    background-color: #e7f1ff;
+    color: #107eff;
+}
+
+.btn-default:hover span{
+    color: #107eff;
+}
+
+.filter-header-container{
+    border: 1px solid #e9f2fa;
+    border-left: none;
+    border-right: none;
+}
+
+.filter-header-container label.label-text{
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.filter-header-container .btn-default .fa{
+    margin-right: 5px;
+}
+
+.filter-header-container .percentage{
+    color: #9bb6d6;
+    font-weight: 100;
+    margin-left: 5px;
+}
